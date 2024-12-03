@@ -91,6 +91,10 @@ footer p {
   margin: 0;
 }
 
+.col-md-4 {
+  padding-bottom: 20px;
+}
+
 .sider-item {
   list-style-type: none;
 }
