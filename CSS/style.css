@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: rgb(193, 214, 254);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.sticky-footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Header Styles */
+header {
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Sidebar Styles */
+aside {
+  background: #6c757d;
+  padding-left: 15px;
+  margin-left: 70px;
+  border-radius: 5px;
+  width: 50%;
+}
+
+aside h4 {
+  margin-bottom: 15px;
+}
+
+aside ul {
+  padding-left: 0;
+}
+
+aside ul li {
+  margin-bottom: 10px;
+}
+
+aside ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/* Carousel Styles */
+/* .carousel-item img {
+  height: 400px;
+  width: 200px;
+  object-fit: cover;
+} */
+
+/* Button Hover Effects */
+.nav-link.btn-primary:hover {
+  background-color: #0056b3;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.sider-item:hover {
+  background-color: #343a40;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Footer Styles */
+footer {
+  background: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+.sider-item {
+  list-style-type: none;
+}
